@@ -1,0 +1,38 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+wallet.json
+credentials.json
+
+# Go
+api/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+coverage.out
+coverage.html
+
+# Node / Vite
+node_modules/
+client/dist/
+dist/
+.vite/
+*.local
+
+# Logs and temp
+*.log
+/tmp/
+tmp/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
